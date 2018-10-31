@@ -1,0 +1,39 @@
+.logo{height: 88px; float:left;}
+.logo a {height: 88px; display: table-cell;vertical-align: middle;}
+.logo a img{display: block;}
+.left{float:right; width: 142px; position: relative;}
+.left span{display: inline-block; margin-top: 66px; color:#515151;}
+#header .left>img{position:relative; top:3px; left: 0px;}
+#footer .bottom{background: #FFFFFF;}
+.banner {height: 594px; overflow: hidden; position: relative;}
+.banner>img{display: block;position: absolute; width: 1920px; height: 594px; left:50%; margin-left: -960px;}
+.smal{width: 352px; position: absolute; background: #FFFFFF; top:88px; right:146px;}
+.smal .small_top {position: relative;}
+.smal .small_top span{line-height: 28px; width: 149px; height: 28px; background:url(../images/login03.jpg) ;text-align: center; color: #df9c1f; display:block; margin:-11px 0px 32px 130px; z-index: 1000;}
+.smal .small_top img:nth-child(3){position: absolute; top:10px; right:0px; display: inline-block;}
+.smal .small_top img:nth-child(1){position: relative; top:17px; left:145px; display: inline-block;}
+.smal .small_top h2{color:#515151; font-size: 16px; margin-left: 25px;}
+.smal .small_top h2 a{display: inline-block; float:right; margin-right: 38px; color:#83e0fb; font-size: 12px; margin-top: 5px;}
+.smal label{display: inline-block; *display: block;*zoom: 1; position: relative;}
+.smal label input{padding:0 8px 0 50px; margin-bottom: 25px; width: 238px; height: 40px; line-height: 40px; color:#515151; border:1px solid #56964a; margin-left: 27px;}
+.smal label>span{position: absolute; top:1px; left:28px; display: inline-block; width: 40px; height: 40px; line-height: 40px; margin: 0 auto; background: #dddddd;}
+.smal label>span img{display: block; margin: 9px auto  0}
+.smal label:nth-child(2) input{margin-bottom:10px;}
+.smal label strong{display: inline-block;color:red; font-size: 14px; position: relative; top: -12px; right: -46px;}
+.smal label:nth-child(3){color:#8b8b8b;text-indent: 20px;}
+.smal label:nth-child(3) img{width:15px; height: 15px; position: relative; top:3px; }
+.smal label:nth-child(3) span{display: inline-block; margin-left: -13px;}
+.smal label:nth-child(3) a{color:#8b8b8b;display:inline-block;margin-left: 0px;}
+.smal label:nth-child(3) a:nth-child(2){display:inline-block;float:right;margin-left: 130px; color:#8b8b8b;}
+.smal button{cursor: pointer; margin-left:27px;outline: none; border: none; display: block; width: 300px; height: 42px; line-height: 42px;text-align: center; color:#FFFFFF; background: #56964a; font-size: 16px;}
+.smal form p{color:#8b8b8b; margin:8px 0 15px 27px; }
+.smal form>img{display:inline-block; margin-right: 10px;}
+.smal form>a{display:inline-block;cursor: pointer; margin-left: 20px;}
+.smal form>img:nth-child(6){margin-left: 27px;}
+.smal form>a:nth-last-child(2){float:right; color:#8b8b8b;}
+.smal form>a:nth-last-child(2)>span{margin-bottom: 30PX; margin-left: 5px; display:inline-block;width: 11px; height: 11px; text-align: center; line-height: 11px; border:1px solid #CCCCCC; margin-right: 30px;}
+.smal form>ul{display: none; position:relative; top: 0px; left: 230px; }
+.smal form>ul li{float: left; margin-left: 10px;}
+
+
+

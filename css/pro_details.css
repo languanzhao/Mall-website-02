@@ -1,0 +1,43 @@
+
+.right .top img:nth-child(2),.right .top img:nth-child(3){border: 1px solid #CCCCCC; }
+
+.right .top img:nth-child(7){margin-top: -10px;}
+.introduce .show>div{display:none;}
+.introduce .show>div:first-child{display: block;}
+
+.page{left:-100px;}
+.praise{margin-top: 172px;}
+.praise h2{width:983px ; height:44 ; line-height: 44px; text-align: left; text-indent: 16px; background: #f3f3f3; font-size: 14px; color:#999999; margin-bottom: 21px; margin-top: 63px;}
+.praise .products ul li{ float:left; border: 2px solid #999999; margin-right:33px;width: 294px; margin-bottom: 24px;}
+.praise .products ul{display: inline-block;*display: block;*zoom: 1; margin-right: -60px;}
+.praise .products ul li:nth-child(1),.praise .products ul li:nth-child(4){margin-left:25px;}
+.praise .products ul li>a{display:table-cell;width: 294px; height: 310px; vertical-align: middle;} 
+.praise .products ul li a img{display: block; margin:0 auto;}
+.praise .products ul li span{display: inline-block; font-size: 24px; color: #cc0033;margin-left: 28px;}
+.praise .products ul li h1{width: 270px; height: 70px; line-height: 70px; text-align: center; border-top: 1px solid #999999; margin: 0 auto;}
+.praise .products ul li h1 a{ font-size: 14px; color:#999999;}
+.praise .products ul li:hover{ border: 2px solid #57974b;}
+
+
+/*.good{}*/
+.good h2{margin-top: 168px;  width: 982px; height: 46px; line-height: 46px; text-indent: 20px; color: #989797; font-size: 14px;  background: #f3f3f3; margin-bottom: 23px;}
+.good .product ul li{float:left; height: 445px; width:299px; border: 2px solid #8d8d8d; margin-right: 28px; margin-bottom: 24px;}
+.good .product ul{display: inline-block;*display: block;*zoom: 1; margin-right: -36px;}
+.good .product ul li:hover{border: 2px solid #57974b;}
+.good .product ul li:nth-child(1),.good .product ul li:nth-child(4){margin-left: 20px;}
+.good .product ul li>a img{display: block; margin: 0 auto;}
+.good .product ul li>a{display: table-cell; height: 310px; vertical-align: middle; width: 299px;}
+.good .product ul li div span{font-size: 24px; color:#e7446a;display: inline-block; margin-left: 20px;}
+.good .product ul li div h3{margin: 0 auto; width: 265px; height: 78px; border-top:1px dashed #9a9999;line-height: 78px; text-align: center; }
+.good .product ul li div h3 a{color: #8a8989; font-size: 14px;}
+
+
+
+
+
+
+
+
+
+
+

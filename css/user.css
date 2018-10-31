@@ -1,0 +1,86 @@
+.user>h1{width: 1200px; height: 40px; line-height: 40px; color:#FFFFFF; font-size: 14px; text-indent: 20px; background: #57974B; margin: 20px auto;}
+.user .middle{border: 1px solid #CCCCCC; width: 1198px;}
+.user .middle .left{width: 150px; float:left; background: #f2f2f2; text-align: center;}
+.user .middle .left ul li h2{margin:30px auto ; color: #333333; font-size: 14px;}
+.user .middle .left ul li ol li{line-height: 31px; font-size: 12px;}
+.user .middle .left ul li ol li a{ font-size: 12px; color:#333333;}
+.user .middle .left ul li:nth-child(4) ol li:nth-child(1) a{color: #57974B;}
+.user .middle .left ul li:nth-child(4) ol li:nth-child(3){margin-bottom: 90px;}
+.user .right{ width: 1048px; float: left;}
+.user .right .top{ width: 573px; position: relative; margin-top: 40px; }
+.right .top img:nth-child(1){border-radius: 50%; position: absolute;}
+.right .top span{line-height: 210px; display: inline-block; text-indent: 0px; margin-left:180px; margin-top: -20px; margin-right:50px;}
+.right .top span:nth-child(5){margin-left: 0px;}
+.right .top img:nth-child(2){position: relative; top:4px; right: -170px; }
+.right .top img:nth-child(4){position: relative; top:3px; left: -7px;}
+.right .top span:nth-child(3),.right .top span:nth-child(5) small{color: #57974B; font-style: normal;}
+.right .message label{display: block; font-size: 12px; color:#333333; position: relative; margin-bottom: 15px;}
+.right .message label span{color:#fe7976; display:inline-block;}
+.right .message label input{width: 185px; height: 30px; border: 1px solid #CCCCCC; font-size: 12px; color:#333333; margin-left: 5px; padding:0 8px;}
+.right .message label:nth-child(2) input {width: 25px; position: relative; top:2px; left: -4px;height: 14px;}
+.right .message label:nth-child(2) em{margin-left: -2px;}
+.right .message label em{display: inline-block; font-style: normal; color:#fe7976;}
+.right .message label:nth-child(3) img,.right .message label:nth-child(7) img{
+	position: relative;
+	top: 3px;
+	left: 52px;
+	z-index: 0;
+}
+.right .message label strong{color:red; font-size:14px; display: inline-block; margin-left: 10px;}
+
+.right .message label select{
+	margin: 0 5px;
+	width: 72px; 
+	border: 1px solid #CCCCCC; 
+	 height: 30px;
+	outline: none;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	padding: 0 5px;
+	z-index: 0;
+	margin-left: -16px;
+	
+}
+
+
+.right .message label select:nth-child(2){margin-left: 5px;}
+.right .message label:nth-child(3) em:nth-child(5){margin-left: 15px;}
+.right .message label:nth-child(4){width: 330px; margin-bottom: 20px;}
+.right .message label:nth-child(4) em{cursor: pointer; color:#333333; padding: 1px 10px; font-style: normal; border: 1px solid #CCCCCC; position: relative;margin: 10px 20px 0px 0;}
+.right .message label:nth-child(4) em:nth-child(3){margin-left: 53px;}
+.right .message label:nth-child(4) span:nth-child(2){margin-left:8px; color:#333333;}
+.right .message label:nth-child(5) input {margin: 10px 0 10px 5px;}
+.right .message label:nth-child(5) em{color:#57974B; margin-left: 20px;}
+.right .message label:nth-child(7) input:nth-child(5){width: 293px; margin-top: 10px;}
+.right .message button{cursor: pointer; outline:none;border: none; margin: 30px 0 70px 53px; width: 70px; height: 30px; line-height: 30px ; text-align: center; color:#FFFFFF; background: #57974B; display: inline-block;}
+.right .bottom,.right .message,.right .top {margin-left: 125px;}
+.right .bottom span{display: inline-block;color: #57974B; margin-bottom: 20px;}
+.right .bottom p{color:#7d7d7d; line-height: 35px;}
+.right .bottom p:nth-child(4){margin-bottom: 30px;}
+.user{margin-bottom: 50px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

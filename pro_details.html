@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>产品详情</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/pro_details.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script type="text/javascript" src="js/city.js" ></script>
+		<script type="text/javascript" src="js/pro_details.js" ></script>	
+		<script type="text/javascript" src="js/shopCar.js" ></script>
+		<script type="text/javascript" src="js/shop_list.js" ></script>
+	</head>
+	<body>
+		<div id="header">
+		<div class="header_top">
+			<div class="container">
+				<div class="left">
+					<span>你好，欢迎来翰娜</span>
+					<span>请<a href="login.html">登陆</a></span>
+					<span><a href="register.html">免费注册</a></span>
+				</div>
+				<div class="right">
+					<ul >
+						<li>
+							<a href="user.html"><img src="images/header01.png"/>我的商城</a>
+						</li>
+						<li><a href="#"><img src="images/header02.png"/>我的关注</a></li>
+						<li><a href="#"><img src="images/header03.png"/>收藏夹</a></li>
+						<li class="dropdown">
+							<a href="#"><img src="images/header04.png"/>网站导航<img src="images/show_list04.png" alt="show_list04" /></a>
+							
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="shop_list.html">商品列表</a></li>
+								<li><a href="user.html">用户主页</a></li>
+								<li><a href="comments.html">用户评论</a></li>
+								<li><a href="address.html">地址详情</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header_middle clear">
+			<div class="container">
+				<div class="logo">
+					<a href="index.html">
+						<img src="images/index_logo.jpg" alt="index_logo" />
+					</a>
+				</div>
+				<div class="search">
+					<label for="">
+						<input type="text"placeholder="请输入关键字" />
+						<button type="button">搜索</button>
+					</label>
+					<ul>
+						<li><a href="shop_list.html">男沐浴露</a><span></span></li>					
+						<li><a href="shop_list.html">力士沐浴露 </a><span></span></li>			
+						<li><a href="shop_list.html">沐浴露家庭装 </a><span></span></li>
+						<li><a href="shop_list.html">多芬沐浴露  </a><span></span></li>
+						<li><a href="shop_list.html">六神沐浴露</a><span></span></li>
+						<li><a href="shop_list.html">阿迪达斯沐浴</a></li>
+					</ul>
+				</div>
+				<div class="shop">
+					<a href="shop_cart.html">
+						<img src="images/index_header05.jpg" alt="/index_header05" />
+						我的购物车<span class="badge">2</span>
+					</a>
+				</div>
+			</div>	
+		</div>
+		<div class="header_bottom">
+			<div class="container">
+
+				<div class="all">
+					<a href="javascript:;">全部商品</a>
+					<ul >				
+						<li><a href="shop_list.html">清洁</a></li>
+						<li><a href="shop_list.html">保湿</a></li>
+						<li><a href="shop_list.html">滋润</a></li>
+						<li><a href="shop_list.html">清凉舒爽</a></li>
+						<li><a href="shop_list.html">补水</a></li>
+						<li><a href="shop_list.html">清爽</a></li>
+						<li><a href="shop_list.html">深层清洁</a></li>
+						<li><a href="shop_list.html">舒缓肌肤</a></li>
+					</ul>
+				</div>
+				<div class="nav">
+					<ul>
+						<li>
+							<a href="shop_list.html">去屑</a>
+							
+						</li>
+						<li>
+							<a href="shop_list.html">健身</a>
+									
+						</li>
+						<li>
+							<a href="shop_list.html">花味</a>
+							
+						</li>
+						<li>
+							<a href="shop_list.html">磨砂</a>
+							
+						</li>
+						<li>
+							<a href="shop_list.html">沐浴露</a>
+							
+						</li>
+						<li>
+							<a href="shop_list.html">牛奶味</a>
+							
+						</li>
+						<li>
+							<a href="shop_list.html">香皂</a>
+							
+						</li>
+						<li>
+							<a href="shop_list.html">驱蚊止痒</a>
+						
+						</li>
+						<li>
+							<a href="shop_list.html">泡澡</a>		
+						</li>					
+						<li>
+							<a href="shop_list.html">沐浴套装</a>
+						</li>
+						<li>
+							<a href="shop_list.html">果味</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>				
+	</div>
+		<div id="article">
+			<div class="container ">
+				<div class="product_introduction clear">
+					<div class="left ">
+						<div class="small_box">
+							<img src="images/pro_big.jpg" alt="pro_big" id="big"/>
+							<div class="box">
+							</div>
+						</div>
+						<div class="box1"></div>
+						<div class="small_product">
+							<ul>
+								<li class="on"><a href="javascript:;"><img src="images/pro_small01.jpg" alt="pro_small01" /></a></li>
+								<li><a href="javascript:;"><img src="images/pro_small02.jpg" alt="pro_small02" /></a></li>
+								<li><a href="javascript:;"><img src="images/pro_small03.jpg" alt="pro_small03" /></a></li>
+								<li><a href="javascript:;"><img src="images/pro_small04.jpg" alt="pro_small04" /></a></li>
+								<li><a href="javascript:;"><img src="images/pro_small05.jpg" alt="pro_small05" /></a></li>
+							</ul>
+						</div>
+						<div class="share clear">
+							<ul>
+								<li><a href="#"><img src="images/pro_share01.jpg" alt="pro_share01" />分享</a></li>
+								<li><a href="#"><img src="images/pro_share02.jpg" alt="pro_share02" />收藏商品(45689人气)</a></li>
+								<li><a href="#">举报</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="right">
+						<div class="title">
+							<h2>韩国进口所望牛奶沐浴露沐浴乳保湿滋润女持久留香男美肌沐浴正品</h2>
+						</div>
+						<div class="price">
+							<div class="cost clear">
+								<dd>
+									<dt>价格</dt>
+									<dl>
+										<em>&yen;</em>
+										<span>299</span>
+									</dl>
+								</dd>
+							</div>
+							<div class="rmb">
+								<dd>
+									<dt>促销价</dt>
+									<dl>									
+										<em>&yen;</em>
+										<span>58.00</span>
+										<img src="images/pro_price01.jpg" alt="pro_price01" />								
+									</dl>								
+								</dd>
+							</div>
+							<div class="activity clear">
+								<dd>	
+									<dt>活动</dt>	
+									<dd>满1件,送任意1件赠品（赠完即止）；满2件,送任意1件赠品 </dd>
+									<dd data-id="0" class="action">
+										<a href="javascript:;">更多优惠&nbsp;&nu;</a>
+									</dd>
+								</dd>
+							</div>
+							<div class="rmc clear">
+								<dd>
+									<dt>促销价</dt>
+									<dl>									
+										<em>&yen;</em>
+										<span>58.00</span>
+										<img src="images/pro_price01.jpg" alt="pro_price01" />								
+									</dl>								
+								</dd>
+							</div>
+						</div>
+						<div class="freight clear">
+							<dd>
+								<dt>运费</dt>
+								<dl>
+									&nbsp;广州&nbsp;至								
+									<select name="" id="province">
+										<option value="">上海</option>
+									</select>
+									<span >&nu;</span>
+								</dl>
+								
+								<dl>
+									&nbsp;快递费：0.00元
+								</dl>
+							</dd>
+						</div>
+						<div class="integral clear">
+							<ul>
+								<li>月销量 <span>8542</span></li>
+								<li>累计评价<span>12546</span> </li>
+								<li>送约翰娜积分<span>12</span> </li>
+							</ul>
+						</div>
+						<div class="amount clear">
+							<dd>
+								<dt>净含量</dt>
+								<dl>750ml <img src="images/pro_amount01.png" alt="pro_amount01" /></dl>
+							</dd>
+						</div>
+						<div class="inventory clear">
+							<dd>
+								<dt>数量</dt>
+								<dl>
+									<input type="text" placeholder="1"value="1" id="num"/ >
+									<span><a href="javascript:;" id="inadd">&and;</a></span>
+									<span><a href="javascript:;" id="red">&or;</a></span>
+								</dl>
+								<dl>库存45210件</dl>
+							</dd>
+					
+						</div>
+						<div class="buy clear">
+							<button><a href="confirm.html">立即购买</a></button>
+							<button><a href="javascript:productCar();" ><img src="images/pro_button01.jpg" alt="pro_button01" />加入购物车</a></button>
+						</div>
+							
+						<div class="promise">
+							<dd>
+								<dt>服务承诺</dt>
+								<dl> 正品保证</dl>
+								<dl><span>T2</span> 极速退款 </dl>
+								<dl>赠运费险   </dl>
+								<dl>
+									<a href="javascript:;" data-id="0">支付方式&or;</a>
+									<ul>
+										<li><a href="#">支付宝</a></li>
+										<li><a href="#">微信</a></li>
+										<li><a href="#">银行卡</a></li>
+									</ul>
+								</dl>
+								<dl>七天无理由退换</dl>
+							</dd>	
+						</div>
+					</div>
+				</div>
+				<div class="package">
+					<div class="big">
+						<div class="small">
+							<ul>
+								<li>
+									<a href="javascript:;"><img src="images/slb01.png" alt="slb01" /></a>
+									<a href="user.html">约翰娜会员</a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="images/slb02.png" alt="slb02" /></a>
+									<a href="shop_cart.html">我的购物车</a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="images/slb03.png" alt="slb04" /></a>
+									<a href="#">约翰娜会员</a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="images/slb04.png" alt="slb04" /></a>
+									<a href="#">爱心</a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="images/slb05.png" alt="slb05" /></a>
+									<a href="">闹钟</a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="images/slb06.png" alt="slb06" /></a>
+									<a href="#">留言</a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="images/slb07.png" alt="slb07" /></a>
+									<a href="#">回到顶部</a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="images/slb08.png" alt="slb08" /></a>
+									<a href="#">反馈</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="combo">
+						<div class="left">
+							<h1>套餐推荐</h1>
+							<div class="product">
+								<ul>
+									<li>
+										<a href="shop_list.html"><img src="images/pro_package01.jpg" alt="pro_package01" /></a>
+										<span>价格 ¥299.00</span>
+									</li>
+									<li>+</li>
+									<li>
+										<a href="shop_list.html"><img src="images/pro_package02.jpg" alt="pro_package02" /></a>
+										<span>价格 ¥299.00</span>
+									</li>
+									<li>+</li>
+									<li>
+										<a href="shop_list.html"><img src="images/pro_package03.jpg" alt="pro_package03" /></a>
+										<span>价格 ¥299.00</span>
+									</li>
+									<li>+</li>
+									<li>
+										<a href="shop_list.html"><img src="images/pro_package04.jpg" alt="pro_package04" /></a>
+										<span>价格 ¥299.00</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="right">
+							<dd>
+								<dt>套餐价：</dt>
+								<dl class="now">
+								
+									<span>¥396.00</span>
+								</dl>
+								<dl class="save">
+									省¥401.00
+								</dl>
+
+							</dd>
+							<h2 class="clear">价格 :¥<span>797.00</span></h2>
+							<button><a href="javascript:showAddCar()">加入购物车</a></button>
+							<button><a href="confirm.html">立即购买</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="store clear">
+					<div class="left">
+						<div class="search">
+							<h1>店内搜索</h1>
+							<div class="key">
+								<form action="" method="post">
+									<label for="">
+										<span>关键字:</span>
+										<input type="text" />
+									</label>
+									<label for="">
+										<span>价格：</span>
+										<input type="text" />
+										<span>到</span>
+										<input type="text" />
+									</label>
+									<button><a href="#">搜索</a></button>
+								</form>
+							</div>
+						</div>
+						<div class="product clear">
+							<div class="list clear">
+								<ul>
+									<li class="on"><a href="javascript:;">店铺热销</a></li>
+									<li><a href="javascript:;">热门关注</a></li>
+								</ul>
+							</div>
+							<div class="show">
+								
+								<ul>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show01.jpg" alt="pro_show01" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show02.jpg" alt="pro_show02" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show03.jpg" alt="pro_show03" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>					
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show04.jpg" alt="pro_show04" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>	
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show05.jpg" alt="pro_show05" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>	
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show06.jpg" alt="pro_show06" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>	
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show07.jpg" alt="pro_show07" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show08.jpg" alt="pro_show08" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show09.jpg" alt="pro_show09" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show10.jpg" alt="pro_show10" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show09.jpg" alt="pro_show09" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show10.jpg" alt="pro_show10" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show11.jpg" alt="pro_show11" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show09.jpg" alt="pro_show09" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show10.jpg" alt="pro_show10" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show11.jpg" alt="pro_show11" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+								
+								</ul>
+								<ul>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show01.jpg" alt="pro_show01" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show02.jpg" alt="pro_show02" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show03.jpg" alt="pro_show03" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>					
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show04.jpg" alt="pro_show04" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>	
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show05.jpg" alt="pro_show05" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>	
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show06.jpg" alt="pro_show06" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>	
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show07.jpg" alt="pro_show07" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show08.jpg" alt="pro_show08" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show09.jpg" alt="pro_show09" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show10.jpg" alt="pro_show10" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show11.jpg" alt="pro_show11" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show09.jpg" alt="pro_show09" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show10.jpg" alt="pro_show10" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show11.jpg" alt="pro_show11" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show09.jpg" alt="pro_show09" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+								
+									<li>
+										<a href="pro_details.html"><img src="images/pro_show11.jpg" alt="pro_show11" /></a>
+										<p><span>1</span> <span>热销458241件</span><span>￥26.90</span></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="right">	
+						<div class="introduce">
+							<div class="list clear">
+								<ul>
+									<li class="on"><a href="javascript:;">商品介绍</a></li>
+									<li><a href="javascript:;">规格与包装</a></li>
+									<li><a href="javascript:;">售后保障</a></li>
+									<li><a href="javascript:;">商品评价(31万+)</a></li>
+									<li><a href="javascript:;">本店好评商品</a></li>
+									
+								</ul>
+							</div>
+							<div class="show">
+								<div class="product">
+									<div class="present clear">
+										<!--<ul>
+											<li>
+												<ol>
+													<li>
+														品牌名称：<span>SOMANG/所望 </span>
+														<a href="javascript:void();"><img src="images/index_header02.jpg" alt="index_header02" />关注</a>
+														
+													</li>
+													<li>产品参数：</li>
+													<li>产品名称：SOMANG/所望 牛奶沐浴露  </li>
+													<li>是否量贩装: 是 </li>
+													<li>适用对象: 通用  </li>
+													<li>年产地: 韩国</li>
+												</ol>
+											</li>
+											<li>
+												<ol>
+													<li>品牌: SOMANG/所望  </li>
+													<li>  功能: 补水 深层清洁 清爽 滋润保湿 清洁 清凉舒爽</li>
+													<li>规格类型: 常规   </li>
+												</ol>
+											</li>
+											<li>
+												<ol>
+													<li>  型号: 牛奶沐浴露</li>
+													<li>  功能: 补水 深层清洁 清爽 滋润保湿 清洁 清凉舒爽</li>
+													<li>单品保质期: 3</li>
+													<li><a href="#">更多参数>></a></li>
+												</ol>
+											</li>
+										</ul>-->
+										<div class="top">
+											品牌名称：<span>SOMANG/所望 </span>
+											<a href="javascript:void();"><img src="images/index_header02.jpg" alt="index_header02" />关注</a>
+										</div>
+										<div class="middle">
+											<h2>产品参数：</h2>
+											<ul>
+												<li>产品名称：SOMANG/所望 牛奶沐浴露  </li>
+												<li>品牌: SOMANG/所望  </li>
+												<li>  型号: 牛奶沐浴露</li>
+												<li>是否量贩装: 是 </li>
+												<li>  功能: 补水 深层清洁 清爽 滋润保湿 清洁 清凉舒爽</li>
+												<li>  净含量：750ml</li>
+												<li>适用对象: 通用  </li>
+												<li>规格类型: 常规   </li>
+												<li>单品保质期: 3</li>
+												<li>年产地: 韩国</li>
+											</ul>
+										</div>
+										<a href="#">更多参数>></a>
+									</div>
+									<div class="top">
+										<img src="images/pro_top01.jpg" alt="pro_top01" />
+										<img src="images/pro_top02.jpg" alt="pro_top02" />
+										<img src="images/pro_top03.jpg" alt="pro_top03" />
+										<img src="images/pro_top04.jpg" alt="pro_top04" />
+										<img src="images/pro_top05.jpg" alt="pro_top05" />
+										<img src="images/pro_top06.jpg" alt="pro_top06" />
+										<img src="images/pro_top07.jpg" alt="pro_top07" />
+										<img src="images/pro_top08.jpg" alt="pro_top08" />
+										<img src="images/pro_top09.jpg" alt="pro_top09" />
+									</div>
+									<div class="evaluation">
+										<h2>商品评价</h2>
+										<div class="good">
+											<div class="left">
+												<span>好评度</span>
+												<strong>97%</strong>
+											</div>
+											<div class="right">
+												<ul>
+													<li><a href="javascript:void();">香味不错(571)</a></li>
+													<li><a href="javascript:void();">物流速度快(370)</a></li>
+													<li><a href="javascript:void();">味道不错(333)</a></li>
+													<li><a href="javascript:void();">大品牌(321)</a></li>
+													<li><a href="javascript:void();">价格实惠(314)</a></li>
+													<li><a href="javascript:void();">特价买的(312)</a></li>
+													<li><a href="javascript:void();">品牌好(279)</a></li>
+													<li><a href="javascript:void();">洗澡很舒服(297)</a></li>
+													<li><a href="javascript:void();">比超市便宜(293)</a></li>
+													<li><a href="javascript:void();">发货快(287)</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="all clear">
+											<ul>                
+												<li><a href="javascript:void();">全部评价(31万+)  </a></li>
+												<li><a href="javascript:void();">晒图(500)  </a></li>
+												<li><a href="javascript:void();"> 追评(100+)   </a></li>
+												<li><a href="javascript:void();"> 好评(31万+)  </a></li>
+												<li><a href="#javascript:void();"> 中评</a></li>
+												<li><a href="javascript:void();"> 差评(2700+)  </a></li>
+												<li><img src="images/shop_car01.png" id="check" alt="1"/><a href="javascript:;">只看当前商品评价   </a>   </li>
+												<li>
+													<a href="javascript:void();" data-id="0">推荐排序&or;</a>
+													<ul>
+														<li>升序</li>
+														<li>降序</li>
+														<li>好评</li>
+														<li>点击量</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<div class="member clear">
+											<ul>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber01.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber04.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right ">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber05.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								<div class="page clear">
+										<ul>
+											<li><a href="#">&lt;&lt;上一页</a></li>
+											<li class="on"><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#">4</a></li>
+											<li><a href="#">5</a></li>
+											<li><a href="#">6</a></li>
+											<li><a href="#">7</a></li>
+											<li><a href="#">...</a></li>
+											<li><a href="#">下一页&gt;&gt;</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="product">
+									<div class="present clear">
+										<div class="top">
+											品牌名称：<span>SOMANG/所望 </span>
+											<a href="javascript:void();"><img src="images/index_header02.jpg" alt="index_header02" />关注</a>
+										</div>
+										<div class="middle">
+											<h2>产品参数：</h2>
+											<ul>
+												<li>产品名称：SOMANG/所望 牛奶沐浴露  </li>
+												<li>品牌: SOMANG/所望  </li>
+												<li>  型号: 牛奶沐浴露</li>
+												<li>是否量贩装: 是 </li>
+												<li>  功能: 补水 深层清洁 清爽 滋润保湿 清洁 清凉舒爽</li>
+												<li>  净含量：750ml</li>
+												<li>适用对象: 通用  </li>
+												<li>规格类型: 常规   </li>
+												<li>单品保质期: 3</li>
+												<li>年产地: 韩国</li>
+											</ul>
+										</div>
+										<a href="#">更多参数>></a>
+									</div>
+									<div class="top">
+										<img src="images/pro_top01.jpg" alt="pro_top01" />
+										<img src="images/pro_top02.jpg" alt="pro_top02" />
+										<img src="images/pro_top03.jpg" alt="pro_top03" />
+										<img src="images/pro_top04.jpg" alt="pro_top04" />
+										<img src="images/pro_top05.jpg" alt="pro_top05" />
+										<img src="images/pro_top06.jpg" alt="pro_top06" />
+										<img src="images/pro_top07.jpg" alt="pro_top07" />
+										<img src="images/pro_top08.jpg" alt="pro_top08" />
+										<img src="images/pro_top09.jpg" alt="pro_top09" />
+									</div>
+									<div class="evaluation">
+										<h2>商品评价</h2>
+										<div class="good">
+											<div class="left">
+												<span>好评度</span>
+												<strong>97%</strong>
+											</div>
+											<div class="right">
+												<ul>
+													<li><a href="javascript:;">香味不错(571)</a></li>
+													<li><a href="javascript:;">物流速度快(370)</a></li>
+													<li><a href="javascript:;">味道不错(333)</a></li>
+													<li><a href="javascript:;">大品牌(321)</a></li>
+													<li><a href="javascript:;">价格实惠(314)</a></li>
+													<li><a href="javascript:;">特价买的(312)</a></li>
+													<li><a href="javascript:;">品牌好(279)</a></li>
+													<li><a href="javascript:;">洗澡很舒服(297)</a></li>
+													<li><a href="javascript:;">比超市便宜(293)</a></li>
+													<li><a href="javascript:;">发货快(287)</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="all clear">
+											<ul>                
+												<li><a href="javascript:;">全部评价(31万+)  </a></li>
+												<li><a href="javascript:;">晒图(500)  </a></li>
+												<li><a href="javascript:;"> 追评(100+)   </a></li>
+												<li><a href="javascript:;"> 好评(31万+)  </a></li>
+												<li><a href="#javascript:;"> 中评</a></li>
+												<li><a href="javascript:;"> 差评(2700+)  </a></li>
+												<li><img src="images/shop_car01.png" id="check" alt="1"/><a href="javascript:;">只看当前商品评价   </a>   </li>
+												<li>
+													<a href="javascript:void();" data-id="0">推荐排序&or;</a>
+													<ul>
+														<li>升序</li>
+														<li>降序</li>
+														<li>好评</li>
+														<li>点击量</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<div class="member clear">
+											<ul>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber01.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber04.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right ">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber05.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								<div class="page clear">
+										<ul>
+											<li><a href="#">&lt;&lt;上一页</a></li>
+											<li class="on"><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#">4</a></li>
+											<li><a href="#">5</a></li>
+											<li><a href="#">6</a></li>
+											<li><a href="#">7</a></li>
+											<li><a href="#">...</a></li>
+											<li><a href="#">下一页&gt;&gt;</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="product">
+									<div class="present clear">
+										<div class="top">
+											品牌名称：<span>SOMANG/所望 </span>
+											<a href="javascript:void();"><img src="images/index_header02.jpg" alt="index_header02" />关注</a>
+										</div>
+										<div class="middle">
+											<h2>产品参数：</h2>
+											<ul>
+												<li>产品名称：SOMANG/所望 牛奶沐浴露  </li>
+												<li>品牌: SOMANG/所望  </li>
+												<li>  型号: 牛奶沐浴露</li>
+												<li>是否量贩装: 是 </li>
+												<li>  功能: 补水 深层清洁 清爽 滋润保湿 清洁 清凉舒爽</li>
+												<li>  净含量：750ml</li>
+												<li>适用对象: 通用  </li>
+												<li>规格类型: 常规   </li>
+												<li>单品保质期: 3</li>
+												<li>年产地: 韩国</li>
+											</ul>
+										</div>
+										<a href="#">更多参数>></a>
+									</div>
+									<div class="top">
+										<img src="images/pro_top01.jpg" alt="pro_top01" />
+										<img src="images/pro_top02.jpg" alt="pro_top02" />
+										<img src="images/pro_top03.jpg" alt="pro_top03" />
+										<img src="images/pro_top04.jpg" alt="pro_top04" />
+										<img src="images/pro_top05.jpg" alt="pro_top05" />
+										<img src="images/pro_top06.jpg" alt="pro_top06" />
+										<img src="images/pro_top07.jpg" alt="pro_top07" />
+										<img src="images/pro_top08.jpg" alt="pro_top08" />
+										<img src="images/pro_top09.jpg" alt="pro_top09" />
+									</div>
+									<div class="evaluation">
+										<h2>商品评价</h2>
+										<div class="good">
+											<div class="left">
+												<span>好评度</span>
+												<strong>97%</strong>
+											</div>
+											<div class="right">
+												<ul>
+													<li><a href="javascript:;">香味不错(571)</a></li>
+													<li><a href="javascript:;">物流速度快(370)</a></li>
+													<li><a href="javascript:;">味道不错(333)</a></li>
+													<li><a href="javascript:;">大品牌(321)</a></li>
+													<li><a href="javascript:;">价格实惠(314)</a></li>
+													<li><a href="javascript:;">特价买的(312)</a></li>
+													<li><a href="javascript:;">品牌好(279)</a></li>
+													<li><a href="javascript:;">洗澡很舒服(297)</a></li>
+													<li><a href="javascript:;">比超市便宜(293)</a></li>
+													<li><a href="javascript:;">发货快(287)</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="all clear">
+											<ul>                
+												<li><a href="javascript:;">全部评价(31万+)  </a></li>
+												<li><a href="javascript:;">晒图(500)  </a></li>
+												<li><a href="javascript:;"> 追评(100+)   </a></li>
+												<li><a href="javascript:;"> 好评(31万+)  </a></li>
+												<li><a href="#javascript:;"> 中评</a></li>
+												<li><a href="javascript:;"> 差评(2700+)  </a></li>
+												<li><img src="images/shop_car01.png" id="check" alt="1"/><a href="javascript:;">只看当前商品评价 </a> </li>
+												<li>
+													<a href="javascript:void();" data-id="0">推荐排序&or;</a>
+													<ul>
+														<li>升序</li>
+														<li>降序</li>
+														<li>好评</li>
+														<li>点击量</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<div class="member clear">
+											<ul>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber01.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber04.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right ">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber05.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								<div class="page clear">
+										<ul>
+											<li><a href="#">&lt;&lt;上一页</a></li>
+											<li class="on"><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#">4</a></li>
+											<li><a href="#">5</a></li>
+											<li><a href="#">6</a></li>
+											<li><a href="#">7</a></li>
+											<li><a href="#">...</a></li>
+											<li><a href="#">下一页&gt;&gt;</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="product">
+									<div class="evaluation">
+										<h2>商品评价</h2>
+										<div class="good">
+											<div class="left">
+												<span>好评度</span>
+												<strong>97%</strong>
+											</div>
+											<div class="right">
+												<ul>
+													<li><a href="javascript:;">香味不错(571)</a></li>
+													<li><a href="javascript:;">物流速度快(370)</a></li>
+													<li><a href="javascript:;">味道不错(333)</a></li>
+													<li><a href="javascript:;">大品牌(321)</a></li>
+													<li><a href="javascript:;">价格实惠(314)</a></li>
+													<li><a href="javascript:;">特价买的(312)</a></li>
+													<li><a href="javascript:;">品牌好(279)</a></li>
+													<li><a href="javascript:;">洗澡很舒服(297)</a></li>
+													<li><a href="javascript:;">比超市便宜(293)</a></li>
+													<li><a href="javascript:;">发货快(287)</a></li>
+												</ul>
+											</div>
+										</div>
+										
+										<div class="all clear">
+											<ul>                
+												<li><a href="javascript:;">全部评价(31万+)  </a></li>
+												<li><a href="javascript:;">晒图(500)  </a></li>
+												<li><a href="javascript:;"> 追评(100+)   </a></li>
+												<li><a href="javascript:;"> 好评(31万+)  </a></li>
+												<li><a href="javascript:;"> 中评</a></li>
+												<li><a href="javascript:;"> 差评(2700+)  </a></li>
+												<li><img src="images/shop_car01.png" alt="1" id="check"/><a href="javascript:;">只看当前商品评价 </a></li>
+												<li>
+													<a href="javascript:void();" data-id="0">推荐排序&or;</a>
+													<ul>
+														<li>升序</li>
+														<li>降序</li>
+														<li>好评</li>
+														<li>点击量</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<div class="member clear">
+											<ul>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber01.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber04.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right ">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber05.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber05.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+													<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li >
+													<div class="left clear">
+														<img src="images/pro_menber01.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												
+												<li >
+													<div class="left clear">
+														<img src="images/pro_menber01.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber04.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber05.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber01.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+													<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber04.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right ">
+													<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber05.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+													<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												</li>
+													<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07"> 
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												
+											</ul>
+										</div>
+									<div class="page clear">
+											<ul>
+												<li><a href="#">&lt;&lt;上一页</a></li>
+												<li class="on"><a href="#">1</a></li>
+												<li><a href="#">2</a></li>
+												<li><a href="#">3</a></li>
+												<li><a href="#">4</a></li>
+												<li><a href="#">5</a></li>
+												<li><a href="#">6</a></li>
+												<li><a href="#">7</a></li>
+												<li><a href="#">...</a></li>
+												<li><a href="#">下一页&gt;&gt;</a></li>
+											</ul>
+										</div>
+										<div class="good">
+											<h2>本店好评</h2>
+											<div class="product">
+												<ul>
+													<li>
+														<a href="pro_details.html"><img src="images/comment_product01.jpg" alt="comment_product01" /></a>
+														<div class="bottom">
+															<span>¥ 80.00</span>
+															<h3><a href="pro_details.html">LUX 力士 奢选香氛沐浴乳 恒永浪漫</a></h3>
+														</div>
+													</li>
+													<li>
+														<a href="pro_details.html"><img src="images/comment_product02.jpg" alt="comment_product02" /></a>
+														<div class="bottom">
+															<span>¥ 80.00</span>
+															<h3><a href="pro_details.html">强生 美肌红石榴焕采沐浴乳720g 持久...</a></h3>
+														</div>
+													</li>
+													<li>
+														<a href="pro_details.html"><img src="images/comment_product03.jpg" alt="comment_product03" /></a>
+														<div class="bottom">
+															<span>¥ 80.00</span>
+															<h3><a href="pro_details.html">Lux 力士 丝绒香氛沐浴摩丝 奢宠魅香</a> </h3>
+														</div>
+													</li>
+													<li>
+														<a href="pro_details.html"><img src="images/comment_product04.jpg" alt="comment_product04" /></a>
+														<div class="bottom">
+															<span>¥ 80.00</span>
+															<h3><a href="pro_details.html">Olay 玉兰油 沐浴露 玫瑰滋养二合一精</a></h3>
+														</div>
+													</li>
+													<li>
+														<a href="pro_details.html"><img src="images/comment_product05.jpg" alt="comment_product05" /></a>
+														<div class="bottom">
+															<span>¥ 80.00</span>
+															<h3><a href="pro_details.html">六神 清凉爽肤沐浴露 200ml</a></h3>
+														</div>
+													</li>
+													<li>
+														<a href="shop_list.html"><img src="images/comment_product06.jpg" alt="comment_product06" /></a>
+														<div class="bottom">
+															<span>¥ 80.00</span>
+															<h3><a href="pro_details.html">六神 艾叶健肤沐浴露 清凉型 200ml</a></h3>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+								<div class="product">
+									<div class="present clear">
+										<div class="top">
+											品牌名称：<span>SOMANG/所望 </span>
+											<a href="javascript:void();"><img src="images/index_header02.jpg" alt="index_header02" />关注</a>
+										</div>
+										<div class="middle">
+											<h2>产品参数：</h2>
+											<ul>
+												<li>产品名称：SOMANG/所望 牛奶沐浴露  </li>
+												<li>品牌: SOMANG/所望  </li>
+												<li>  型号: 牛奶沐浴露</li>
+												<li>是否量贩装: 是 </li>
+												<li>  功能: 补水 深层清洁 清爽 滋润保湿 清洁 清凉舒爽</li>
+												<li>  净含量：750ml</li>
+												<li>适用对象: 通用  </li>
+												<li>规格类型: 常规   </li>
+												<li>单品保质期: 3</li>
+												<li>年产地: 韩国</li>
+											</ul>
+										</div>
+										<a href="#">更多参数>></a>
+									</div>
+									<div class="top">
+										<img src="images/pro_top01.jpg" alt="pro_top01" />
+										<img src="images/pro_top02.jpg" alt="pro_top02" />
+										<img src="images/pro_top03.jpg" alt="pro_top03" />
+										<img src="images/pro_top04.jpg" alt="pro_top04" />
+										<img src="images/pro_top05.jpg" alt="pro_top05" />
+										<img src="images/pro_top06.jpg" alt="pro_top06" />
+										<img src="images/pro_top07.jpg" alt="pro_top07" />
+										<img src="images/pro_top08.jpg" alt="pro_top08" />
+										<img src="images/pro_top09.jpg" alt="pro_top09" />
+									</div>
+									<div class="evaluation">
+										<h2>商品评价</h2>
+										<div class="good">
+											<div class="left">
+												<span>好评度</span>
+												<strong>97%</strong>
+											</div>
+											<div class="right">
+												<ul>
+													<li><a href="javascript:void();">香味不错(571)</a></li>
+													<li><a href="javascript:void();">物流速度快(370)</a></li>
+													<li><a href="javascript:void();">味道不错(333)</a></li>
+													<li><a href="javascript:void();">大品牌(321)</a></li>
+													<li><a href="javascript:void();">价格实惠(314)</a></li>
+													<li><a href="javascript:void();">特价买的(312)</a></li>
+													<li><a href="javascript:void();">品牌好(279)</a></li>
+													<li><a href="javascript:void();">洗澡很舒服(297)</a></li>
+													<li><a href="javascript:void();">比超市便宜(293)</a></li>
+													<li><a href="javascript:void();">发货快(287)</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="all clear">
+											<ul>                
+												<li><a href="javascript:void();">全部评价(31万+)  </a></li>
+												<li><a href="javascript:void();">晒图(500)  </a></li>
+												<li><a href="javascript:void();"> 追评(100+)   </a></li>
+												<li><a href="javascript:void();"> 好评(31万+)  </a></li>
+												<li><a href="#javascript:void();"> 中评</a></li>
+												<li><a href="javascript:void();"> 差评(2700+)  </a></li>
+												<li><img src="images/shop_car01.png" id="check" alt="1"/><a href="javascript:;">只看当前商品评价   </a>   </li>
+												<li>
+														<a href="javascript:void()" data-id="0" >推荐排序&or;</a>
+													<ul>
+														<li>升序</li>
+														<li>降序</li>
+														<li>好评</li>
+														<li>点击量</li>
+													</ul>
+													
+												</li>
+											</ul>
+										</div>
+										<div class="member clear">
+											<ul>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber01.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber04.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right ">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber05.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+												<li>
+													<div class="left clear">
+														<img src="images/pro_menber06.jpg"/><span>J*****V</span>
+														<h2>金卡会员</h2>
+													</div>
+													<div class="right">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<img src="images/pro_menber07.jpg" alt="pro_menber07">
+														<p>用起很舒服，味道很香，感觉还不错，喜欢</p>
+														<img src="images/pro_menber02.jpg" alt="pro_menber02" />
+														<img src="images/pro_menber03.jpg" alt="pro_menber03" />
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								<div class="page clear">
+										<ul>
+											<li><a href="#">&lt;&lt;上一页</a></li>
+											<li class="on"><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#">4</a></li>
+											<li><a href="#">5</a></li>
+											<li><a href="#">6</a></li>
+											<li><a href="#">7</a></li>
+											<li><a href="#">...</a></li>
+											<li><a href="#">下一页&gt;&gt;</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="container">
+				<div class="top clear">
+					<ul>
+						<li>
+							<img src="images/index_footer01.jpg"/>			
+							<h2><a href="#">保障</a></h2>
+							<span>正品行货 放心选购</span>
+						
+						</li>
+						<li>
+							<img src="images/index_footer02.jpg"/>
+							<h2><a href="#">7天</a></h2>
+							<span>无理由退货</span>
+							
+						</li>
+						<li>
+							<img src="images/index_footer03.jpg"/>
+							<h2><a href="#">准时送达</a></h2>
+							<span>收货时间由你做主</span>
+			
+						</li>
+						<li>
+							<img src="images/index_footer04.jpg"/>
+							<h2><a href="#">满</a></h2>
+							<span>99包邮</span>
+			
+						</li>
+						<li>
+							<img src="images/index_footer04.jpg"/>
+							<h2><a href="#">帮助中心</a></h2>
+							<span>您的购物指南</span>
+						
+						</li>
+					</ul>
+				</div>
+				<div class="middle clear">
+					<div class="left">
+						<ul>
+							<li>
+								<a href="#">购物指南</a>
+								<ol>
+									<li><a href="register.html">免费注册</a></li>
+									<li><a href="#">开通支付宝</a></li>
+									<li><a href="#">支付宝充值</a></li>
+								</ol>
+								
+							</li>
+							<li>
+								<a href="#">天猫保障</a>
+								<ol>
+									<li><a href="#">发票保障</a></li>
+									<li><a href="#">售后规则</a></li>
+									<li><a href="#">缺货赔付</a></li>
+								</ol>
+								
+							</li>
+							<li>
+								<a href="#">支付方式</a>
+								<ol>
+									<li><a href="#">快捷支付</a></li>
+									<li><a href="#">信用卡</a></li>
+									<li><a href="#">余额宝</a></li>
+									<li><a href="#">蚂蚁花呗</a></li>
+									<li><a href="#">货到付款</a></li>
+								</ol>
+							</li>
+							<li>
+								<a href="#">商家服务</a>
+								<ol>
+									<li><a href="#">商家入驻</a></li>
+									<li><a href="#">商家中心</a></li>
+									<li><a href="#">天猫智库</a></li>
+									<li><a href="#">天猫规则</a></li>
+									<li><a href="#">物流服务</a></li>
+									<li><a href="#">喵言喵语</a></li>
+									<li><a href="#">运营服务</a></li>
+								</ol>
+								
+							</li>
+						</ul>
+					</div>
+					<div class="right">
+						<img src="images/index_footer05.jpg" alt="index_footer05" />
+						<span>扫一扫</span>
+					</div>
+				</div>
+			</div>	
+			<div class="bottom">
+				<div class="container">
+					<p><a href="#">关于约翰娜</a>&nbsp;<a href="#">帮助中心</a>&nbsp;<a href="#">开放平台</a>&nbsp;<a href="#">诚聘英才</a>&nbsp;<a href="#">联系我们</a>
+						&nbsp;<a href="#">网站合作</a>&nbsp;<a href="#">法律声明及&nbsp;隐私权政策</a>&nbsp;<a href="#">知识产权</a>&nbsp;<a href="#">廉正举报</a>
+						<span>© 2006-2018yuehanna.COM 版权所有</span>
+					</p>
+					<p><span>营业执照注册号：33010600033688</span><small></small><span>网络文化经营许可证：浙网文（2016）0380-396号 </span><small></small><span>增值电信业务经营许可证：浙B6-30110350</span>
+						<small></small><span>安全责任书  </span><small></small><span>浙公网安备 33010603302328号</span>
+					</p>
+				</div>	
+			</div>  
+		</div>
+	</body>
+</html>
